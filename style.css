@@ -1,0 +1,281 @@
+*{
+  top: 0;
+  left: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  background:url(./image/kvimage/snow.jpg) no-repeat;
+  background-size:cover;
+  background-position: center;
+  color: #fff;
+  height: 710px;
+}
+.topbar-wrapper{
+  margin: 0 auto;
+}
+.topbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0 0 0 ;
+}
+.logo-wrapper{
+  display: flex;
+  position: relative;
+}
+.logo{
+  width: 54px;
+  position: relative;
+  margin: 0 126px 0 0;
+}
+.logo-title{
+  font-family: 'open sans';
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  width: 180px;
+  left: 66px;
+  top: 8px;
+}
+.logo-title-descrip{
+  font-size: 12px;
+  letter-spacing: 0.55px;
+  position: absolute;
+  font-family: 'open sans';
+  top: 45px;
+  left: 16px;
+}
+.nav{
+  display: flex;
+  list-style: none;
+  padding: 21px 0px 0 108px;
+  margin: 0 -20px;
+}
+.nav li{
+  font-size: 14px;
+  line-height: 50px;
+  padding: 0 15px;
+  font-family: 'Open Sans';
+  letter-spacing: -1px;
+}
+
+header h1{
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.15px;
+  font-family: 'open sans';
+  margin: 117px 0 0px 812px;
+  text-align: center;
+  width: 336.8px;
+}
+header p{
+  font-size: 18px;
+  font-family: museo-w01-700,serif;
+  font-weight: 700;
+  text-align: center;
+  margin: 16px 0 0 782px;
+  width: 400px;
+}
+.header-button{
+  margin: 149px 0 0 444px;
+}
+.header-button button{
+  color: #fff;
+  font-size: 16px;
+  background-color: #3d9be999;
+  border: none;
+  padding: 10px 25px;
+  margin: 0 43px;
+}
+
+.section-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 77px;
+}
+.main-left{
+  width: 891px;
+}
+.left-wrapper{
+  text-align: left;
+  width: 365px;
+}
+.main-right{
+  width: 891px;
+}
+
+.section-wrapper section{
+  height: 463px;
+  margin: 0 auto ;
+}
+.img{
+  margin: 0 0 23px 92px;
+}
+.section-wrapper h2,.section-wrapper h3 {
+  text-align: center;
+}
+.section-wrapper h2{
+  font-size: 26px;
+  margin-bottom: 26px;
+}
+.section-wrapper h4{
+  font-size: 18px;
+  font-weight: 400;
+}
+.section-wrapper h3{
+  font-size: 20px;
+  margin: 10px auto 20px;
+}
+.section-wrapper p{
+  font-size: 17px;
+  width: 380px;
+}
+.left-wrapper span{
+  text-decoration: underline;
+}
+.img2{
+  margin: 0 0 0 126px;
+}
+
+.bar{
+  background: url(./image/otherimage/[www.build-school.com][246]5b7e139d046c40c1a1acde7162607721.jpg);
+  height: 127px;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+  background-color: rgba(4, 81, 123, .9);
+}
+.bar p{
+  color: #fff;
+  font-size: 22px;
+  line-height: 127px;
+  text-align: center;
+  letter-spacing: 3.3px;
+}
+
+.box1-wrapper{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+.box1{
+  width: 25%;
+}
+.box1 h2{
+  margin:50px 0 30px;
+}
+.box1 img{
+  margin: 0 0 40px;
+}
+.box1 h3{
+  color: #f50038;
+  margin-bottom: 20px;
+}
+.box1 ul{
+  width: 225px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 15px;
+}
+.bar2{
+margin: 70px 0;
+height: 161px;
+}
+.bar2 p{
+  width: 790px;
+  margin: 0px auto;
+  padding-top: 50.5px;
+  line-height: normal;
+}
+.box2 h2{
+  font-size: 18px;
+}
+.box2 img,.box3 img{
+  display: block;
+  margin: 0 auto;
+}
+.box2-img{
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box2 ul{
+  font-size: 15px;
+  line-height: 22px;
+  padding: 0 20px;
+}
+.box2 li{
+  width: 200px;
+}
+.box2-li li{
+  width: 160px;
+}
+.box2-li ul{
+  padding: 0 40px;
+}
+.bar3{
+  height: 143px;
+  margin: 60px 0 30px 0 ;
+}
+.bar3 p{
+  line-height: 143px;
+}
+.box3-img{
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box3-img1{
+  position: relative;
+  left: -275px;
+}
+.box3-img2{
+  position: relative;
+  left: -120px;
+}
+
+.footer-wrapper{
+  background-color: rgb(238,238,238);
+  border-top: #333 5px solid;
+
+}
+.footer-content{
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+.footer-content-join{
+  width: 43%;
+  padding: 20px 0;
+}
+.footer-content-join p{
+  font-size: 16px;
+}
+.footer-content-join h2{
+  font-size: 20px;
+}
+.footer-content-service{
+  font-size: 13px;
+  padding: 20px 0;
+}
+.icon img{
+  margin: 0 10px 0 0;
+}
+.icon p{
+  display: inline-block;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.copy{
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
