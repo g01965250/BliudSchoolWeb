@@ -229,15 +229,9 @@ height: 161px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
 }
-.box3-img1{
-  position: relative;
-  left: -275px;
-}
-.box3-img2{
-  position: relative;
-  left: -120px;
-}
+
 
 .footer-wrapper{
   background-color: rgb(238,238,238);
